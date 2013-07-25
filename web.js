@@ -8,7 +8,7 @@ var htmlTextBuff = fs.readFileSync(fileName);
 var htmlText = htmlTextBuff.toString('utf8');
 
 app.get('/', function(request, response) {
-  response.send('htmlText');
+  response.send(htmlText);
 });
 
 var port = process.env.PORT || 5000;
