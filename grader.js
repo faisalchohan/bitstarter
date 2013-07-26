@@ -10,9 +10,9 @@ References:
 
 var fs = require('fs');
 var program = require('commander');
-var cheerion = require('cheerio');
+var cheerio = require('cheerio');
 var HTMLFILE_DEFAULT = "index.html";
-var CHECKFILE_DEFAULT = "checks.json";
+var CHECKSFILE_DEFAULT = "checks.json";
 
 var assertFileExists = function(infile) {
     var instr = infile.toString();
